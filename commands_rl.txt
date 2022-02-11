@@ -1,0 +1,500 @@
+   19  git switch master
+   20  git merge feature 
+   21  ls
+   22  vi app.py
+   23  ls
+   24  git add app.py 
+   25  fit status
+   26  git commit -m "app file updates"
+   27  git status
+   28  ls
+   29  git branch
+   30  qqgit switch fe
+   31  qqgit switch feature
+   32  git switch feature
+   33  ls
+   34  rm credentials.json 
+   35  git add credentials.json 
+   36  git staus
+   37  git status
+   38  git commit -m "credentials file removed"
+   39  git status
+   40  git checkout master 
+   41  vi app.py 
+   42  git add app.py 
+   43  git commit -m "app file changes"
+   44  git status
+   45  git merge feature
+   46  cd git_projects/
+   47  ls
+   48  cd my_first_repo/
+   49  ls
+   50  git branch
+   51  git log --oneline
+   52  git branch -d dev
+   53  git branch
+   54  git tag -a V0.1
+   55  git log --oneine
+   56  git log --oneline
+   57  touch helper.py
+   58  git add helper.py helper.py 
+   59  git commit -m "helper file added"
+   60  git tag v0.2
+   61  git log --oneline
+   62  git tag
+   63  git tag -d v0.2
+   64  ls -a
+   65  cd ..
+   66  ls -a
+   67  cd my_calculator/
+   68  ls -a
+   69  cd .git
+   70  ls
+   71  vi config 
+   72  cat config 
+   73  ls
+   74  cd ..
+   75  ls
+   76  cd ..
+   77  cd my_first_repo/
+   78  ls -a
+   79  cd .git
+   80  ls
+   81  ls -a
+   82  cat config 
+   83  cd ..
+   84  cd ..
+   85  cd ...
+   86  cd ..
+   87  cd aiops-projects/
+   88  ls -a
+   89  cd my-first-git-project/
+   90  ls -a
+   91  cd .git/
+   92  la
+   93  ls -a
+   94  cat config 
+   95  start .
+   96  clear
+   97  cd ..
+   98  cd ..
+   99  cd ..
+  100  cd git_projects/q
+  101  cd git_projects/
+  102  cd my_calculator/
+  103  ls
+  104  git remote -v
+  105  git remote add testorigin https://github.com/alan-ai-learner/my_first_aiops_git_repo.git
+  106   git push testorigin dev
+  107  touch testing.txt
+  108  ls
+  109  git add testing.txt 
+  110  git commit -m "testing push"
+  111   git push testorigin dev
+  112  ls
+  113   git push testorigin test
+  114  ls
+  115   git push testorigin test
+  116   git push testorigin dev
+  117  git branch
+  118  git push testorigin master
+  119  git remote  -v
+  120  git remote remove origin
+  121  git remote  -v
+  122  vi .git/config
+  123  git pull testorigin dev
+  124  ls
+  125  cat app.css 
+  126  git fetch testorigin dev
+  127  ls
+  128  git fetch testorigin dev
+  129  git merge testorigin/dev
+  130  history
+  131  start .
+  132  cd git_projects/
+  133  sudo
+  134  hi
+  135  start .
+  136  cd Harshit/
+  137  cd ..
+  138  ls r
+  139  ls -r
+  140  ls -R
+  141  ls -a
+  142  mkdir -r dir1/dir2
+  143  mkdir  dir1/dir2
+  144  ls
+  145  cd Harshit/
+  146  mkdir  dir1/dir2
+  147  mkdir dir1/dir2
+  148  mkdir -p dir1/dir2
+  149  cd dir1/dir2
+  150  ls
+  151  vi Sample.txt
+  152  ls
+  153  cat 0 Sample.txt 
+  154  cat Sample.txt[0 
+  155  cat Sample.txt[0] 
+  156  awk -F "," '{print $1 "," $2}' Sample.txt > custInfo.csv
+  157  ls
+  158  cat custInfo.csv 
+  159  vi Sample.txt 
+  160  awk -F "," '{print $1 "," $2}' Sample.csv > custInfo.csv
+  161  ls
+  162  mv Sample.txt Sample.csv
+  163  ls
+  164  awk -F "," '{print $1 "," $2}' Sample.csv > custInfo.csv
+  165  ls
+  166  cat custInfo.csv 
+  167  awk -F "," '{print $1 "," $2}' Sample.txt > custInfo.txt
+  168  vi Sample.csv'
+  169  vi Sample.csv'
+  170  vi Sample.csv'
+  171  vi Sample.csv
+  172  vi Sample.csv
+  173  awk -F " " '{print $1 "," $2}' Sample.txt > custInfo.txt
+  174  mv Sample.csv Sample.txt
+  175  awk -F " " '{print $1 "," $2}' Sample.txt > custInfo.txt
+  176  ls
+  177  start .
+  178  ls
+  179  cat custInfo.txt 
+  180  awk -F " " '{print $1 " " $2}' Sample.txt > custInfo.txt
+  181  cat custInfo.txt 
+  182  awk -F " " '{print $2 " " $4}' Sample.txt > ActInfo.txt
+  183  cat ActInfo.txt 
+  184  cat ActInfo.txt custInfo.txt 
+  185  cat ActInfo.txt custInfo.txt > temp1.txt
+  186  ls
+  187  cat temp1.txt 
+  188  less /etc/passwd
+  189  vi Sample.txt 
+  190  ls
+  191  tr '[A-Z]' '[a-z]' < input |      egrep -v "^ *(join date|age|posts|location|re):" |      sort |      uniq -c
+  192  tr '[A-Z]' '[a-z]' < Sample |      egrep -v "^ *(join date|age|posts|location|re):" |      sort |      uniq -c
+  193  tr '[A-Z]' '[a-z]' < Sample.txt |      egrep -v "^ *(join date|age|posts|location|re):" |      sort |      uniq -c
+  194  ls
+  195  ls -l .vim | grep -c ^d
+  196  ls 
+  197  ls -l
+  198  cp Sample.txt sample2.txt
+  199  vi sample2.txt 
+  200  grep -o ';' sample.txt | wc -l
+  201  grep -o ';' sample2.txt | wc -l
+  202  cat sample2.txt 
+  203  grep -o '' sample2.txt | wc -l
+  204  grep -c '' sample2.txt | wc -l
+  205  grep -c '' sample2.txt
+  206  cat sample2.txt 
+  207  grep '[^;]$' <filename>
+  208  grep '[^;]$' sample2.txt 
+  209  grep '[^;]$' sample2.txt | wc -l
+  210  history > commands.txt
+  211  start .
+  212  tr '[A-Z]' '[a-z]' < Sample.txt |      egrep -v "^ *(join date|age|posts|location|re):" |      sort |      uniq -c
+  213  ls -l .vim | grep -c ^d
+  214  ls
+  215  cat employee.txt 
+  216  awk -F, '{print ($6}' employee.txt 
+  217  awk -F, '{print ($6)}' employee.txt 
+  218  awk -F, '{print ($3>$4?$3:$4)}' employee.txt 
+  219  awk -F, '{print ($6?$6)}' employee.txt 
+  220  awk -F, '{print $6}' employee.txt 
+  221  awk -v max=0
+  222  awk -v max=0 employee.txt 
+  223  awk -v max=6 employee.txt 
+  224  $ awk -v max=6 employee.txt
+  225   awk -v max=6 employee.txt
+  226  sort -r version.log | head -n1 | awk '{print $2}'
+  227  sort -r employee.txt | head -n1 | awk '{print $2}'
+  228  sort -r employee.txt | head -n1 | awk '{print $6}'
+  229  sort -r employee.txt | head -n1 | awk '{print $6}'
+  230  awk 'BEGIN{a=   0}{if ($1>0+a) a=$1} END{print a}' employee.txt 
+  231  cat employee.txt 
+  232  awk 'BEGIN{a=   0}{if ($1>0+a) a=$6} END{print a}' employee.txt 
+  233  awk 'BEGIN{a=   0}{if ($6>0+a) a=$6} END{print a}' employee.txt 
+  234  awk 'BEGIN{a=   0}{if ($6>0+a) a=$6} END{print a & $2}' employee.txt 
+  235  awk 'BEGIN{a=   0}{if ($6>0+a) a=$6} END{print a && $2}' employee.txt 
+  236  awk 'BEGIN{a=   0}{if ($6>0+a) a=$6} END{print a && $3}' employee.txt 
+  237  awk 'BEGIN{a=   0}{if ($6>0+a) a=$6} END{print a}' employee.txt 
+  238  awk 'max<$6 || NR==1{ max=$6; data=$2 } END{ print data }' infile
+  239  awk 'max<$6 || NR==1{ max=$6; data=$2 } END{ print data }' employee.txt 
+  240  awk 'max<$6 || NR==1{ max=$6; data=$3 } END{ print data }' employee.txt 
+  241  echo $string |cut -d';' -f1 | read str1
+  242  awk 'max<$6 || NR==1{ max=$6; data=$3 } END{ print data }' employee.txt
+  243  awk '{print $NF,$0}' file.txt | sort -nr | cut -f2- -d' '
+  244  awk '{print $NF,$0}' employee.txt.txt | sort -nr | cut -f2- -d' '
+  245  awk '{print $NF,$0}' employee.txt | sort -nr | cut -f2- -d' '
+  246  cat employee.txt 
+  247  nk dir2
+  248  awk -F, '{ print $NF, $0 }' yourfile | sort -n -k1 | sed 's/^[0-9][0-9]* //'
+  249  awk -F, '{ print $NF, $0 }' employee.txt | sort -n -k1 | sed 's/^[0-9][0-9]* //'
+  250  ./script | awk '{ print $NF,$0 }' | sort -k1,1 -n | cut -f2- -d' ' employee.txt 
+  251  ./script | awk '{ print $NF,$6 }' | sort -k1,1 -n | cut -f2- -d' ' employee.txt 
+  252  ./script | awk '{ print $NF,$5 }' | sort -k1,1 -n | cut -f2- -d' ' employee.txt 
+  253  ./script | awk '{ print $NF,$5 }' | sort -k5,1 -n | cut -f2- -d' ' employee.txt 
+  254  awk '{print $NF,$0}' employee.txt | sort -nr | cut -f2- -d' '
+  255  awk 'max<$6 || NR==1{ max=$6; data=$3 } END{ print data }' employee.txt 
+  256  awk 'max<$6 || NR==1{ max=$6; data=$3 } END{ print data }' employee.txt | tail 2
+  257  awk 'max<$6 || NR==1{ max=$6; data=$3 } END{ print data }' employee.txt | tail 
+  258  perl -n -e 'if (/^\S+\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)/) { print if $1==100||$2==100||$3==100||$4==100||($1==0&&$2==0&&$3==0&&$4==0) }' employee.txt
+  259  perl -n -e 'if (/^\S+\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)/) { print if $1==100||$2==100||$3==100||$4==100||($1==0&&$2==0&&$3==0&&$5==0) }' employee.txt
+  260  perl -n -e 'if (/^\S+\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)/) { print if $1==100||$2==100||$3==100||$4==100||$5==100||($1==0&&$2==0&&$3==0&&$4==0) }' employee.txt
+  261  perl -n -e 'if (/^\S+\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)/) { print if $1==100||$2==100||$3==100||$4==100||($1==0&&$2==0&&$3==0&&$4==0) }' input.txt
+  262  awk '$2 ~ /^0$/ && $3 ~ /^0$/ && $4 ~ /^0$/ && $5 ~ /^0$/ || /100/' $ employee.txt 
+  263  awk '$2 ~ /^0$/ && $3 ~ /^0$/ && $4 ~ /^0$/ && $5 ~ /^0$/ || /100/'  employee.txt 
+  264  awk '$2 ~ /^0$/ && $3 ~ /^0$/ && $4 ~ /^0$/ && $5 ~ /^0$/ || /100/'  employee.txt 
+  265  sort -k 3,3 employee.txt 
+  266  sort -k 5,3 employee.txt 
+  267  sort -k 5,5 employee.txt 
+  268  vi employee.txt 
+  269  sort -k 5,5 employee.txt 
+  270  awk 'max<$6 || NR==1{ max=$6; data=$3 } END{ print data }' employee.txt 
+  271  e.txt | sort -t, -k3n | head -n 5
+  272  cut -d " " -f 5 employee.txt | sort -n | head -n 2
+  273  vi employee.txt 
+  274  mv employee1.txt employee.txt
+  275  mv employee(1).txt employee.txt
+  276  mv employee (1).txt employee.txt
+  277  mv emp.txt employee.txt
+  278  ls
+  279  cut -d " " -f 5 employee.txt | sort -n | head -n 2
+  280  cat employee.txt 
+  281  awk 'max<$6 || NR==1{ max=$6; data=$3 } END{ print data }' employee.txt | tail -n 2
+  282  awk 'max<$6 || NR==1{ max=$6; data=$3 } END{ print data }' employee.txt 
+  283  awk 'max<$6 || NR==1{ max=$6; data=$3 } END{ print data }' employee.txt
+  284  awk 'min<$6 || NR==1{ min=$6; data=$3 } END{ print data }' employee.txt
+  285  awk 'max<$6 || NR==1{ max=$6; data=$3 } END{ print data }' employee.txt
+  286  cut -d " " -f 5 employee.txt | sort -n | uniq -d
+  287  awk -F"#" '($3*1)>0.02' marks.txt
+  288  awk -F , '
+  289    !count[$1]++ {save[$1] = $0; next}
+  290    count[$1] == 2 {
+  291      print save[$1]
+  292      delete save[$1]
+  293    }
+  294    {print}'
+  295  awk -F , '
+  296    !count[$1]++ {save[$1] = $0; next}
+  297    count[$1] == 2 {
+  298      print save[$1]
+  299      delete save[$1]
+  300    }
+  301    {print}' employee.txt 
+  302  20
+  303  cat emp_2 
+  304  cat emp_2.txt 
+  305  cat emp_2 
+  306  awk 'max<$6 || NR==1{ max=$6; data=$3 } END{ print data }' employee.txt
+  307  ./script | awk '{ print $NF,$0 }' | sort -k1,1 -n | cut -f2- -d' ' employee.txt 
+  308  cd Harshit/
+  309  awk "E&K" '{print $2}' employee.txt
+  310  cd dir1/dir2/
+  311  awk "E&K" '{print $2}' employee.txt
+  312  awk "|E&K| {print $2}" employee.txt
+  313  awk "|E&R| {print $2}" employee.txt
+  314  awk - F "E&R" {print $2} employee.txt
+  315  awk - F "E&R" employee.txt
+  316  ls
+  317  cat emp_2
+  318  awk - F "E&R" emp
+  319  awk 'E&R' emp
+  320  mv emp emp.txt
+  321  cat emp
+  322  ls
+  323  mv emp_2 emp.txt
+  324  ls
+  325  awk - F "E&R" emp.txt 
+  326  awk -f "E&R" emp.txt 
+  327  awk -F "E&R" emp.txt 
+  328  awk "E&R" emp.txt 
+  329  cat emp.txt 
+  330  vi
+  331  vi emp.txt 
+  332  cat emp.txt 
+  333  awk "E&R" emp.txt 
+  334  awk ":E&R:" emp.txt 
+  335  docker --version\
+  336  docker --version
+  337  docker run docker/whalesay cowsay Welcome AIOPS
+  338  nvidia-smi
+  339  docker ps -a
+  340  docker ps
+  341  docker ps -a
+  342  docker pull nginx
+  343  docker run nginx
+  344  docker run -p 8080:80 nginx
+  345  exit
+  346  docker ps -a
+  347  docker rm f8e1
+  348  docker ps -a
+  349  docker ps 
+  350  docker rm f8e1
+  351  docker kill f8e1
+  352  docker rm f8e1
+  353  docker stop[
+  354  docker s
+  355  docker ps 
+  356  docker kill ca9d
+  357  docker run --name docker-nginx -p 8080:80 -d nginx
+  358  docker ps 
+  359  docker kill cc32
+  360  docker ps 
+  361  docker run --name docker-nginx_random -P nginx
+  362  docker run --name test-ubuntu -it ubuntu:16.04 ./bin/bash 
+  363  winpty docker run --name test-ubuntu -it ubuntu:16.04 ./bin/bash 
+  364  docker ps -aq
+  365  docker image prune
+  366  docker ps -aq
+  367  docker ps -a
+  368  docker ps -a
+  369  docker kill 41ff
+  370  docker run -d -P nginx
+  371  docker ps -a
+  372  docker exec -it 8c72 bash 
+  373  winpty docker exec -it 8c72 bash 
+  374  docker run -it ubuntu bash
+  375  winpty docker run -it ubuntu bash
+  376  docker ps
+  377  docker exec -it 61e bash
+  378  minty docker exec -it 61e bash
+  379  winty docker exec -it 61e bash
+  380  winpty docker exec -it 61e bash
+  381  ls
+  382  cd C:\Code Basics Project\potato_classification
+  383  cd C:/Code Basics Project/potato_classification
+  384  cd C:
+  385  ls
+  386  ls Code\ Basics\ Project/
+  387  cd
+  388  cd Code\ Basics\ Project/
+  389  ls
+  390  cd potato_classification/
+  391  notebook
+  392  jupyter notebook
+  393  conda
+  394  conda create -n potato_classification python=3.7
+  395  conda activate potato_classification
+  396  source activate potato_classification
+  397  ls
+  398  pip install jupyter notebook
+  399  jupyter notebook
+  400  source activate potato_classification
+  401  python
+  402  cd c
+  403  cd C:
+  404  cd Code\ Basics\ Project/
+  405  cd potato_classification/
+  406  ls
+  407  jupyter notebook
+  408  source activate 
+  409  source activate potato_classification
+  410  jupyter notebook
+  411  jupyter notebook
+  412  git clone https://github.com/codebasics/potato-disease-classification/
+  413  cd potato-disease-classification/
+  414  ls
+  415  docker run -t --rm -p 8501:8501 -v C:/Code Basics Project/potato_classification/potato-disease-classification tensorflow/serving --rest_api_port=8501 --model_config_file=/potato-disease-classification/models.config
+  416  docker run -t --rm -p 8501:8501 -v C:/code_basics/potato_classification/potato-disease-classification tensorflow/serving --rest_api_port=8501 --model_config_file=/potato-disease-classification/models.config
+  417  docker run -t --rm -p 8501:8501 -v C:/code_basics/potato_classification/potato-disease-classification tensorflow/serving --rest_api_port=8501 --model_config_file=/potato-disease-classification/models.config
+  418  docker run -t --rm -p 8501:8501 -v C:/code_basics/potato_classification/potato-disease-classification tensorflow/serving --rest_api_port=8501 --model_config_file=/potato-disease-classification/models.config
+  419  docker run -t --rm -p 8501:8501 -v C:/code_basics/potato_classification/potato-disease-classification tensorflow/serving --rest_api_port=8501 --model_config_file=/potato-disease-classification/models.config
+  420  docker run -t --rm -p 8501:8501 -v C:/code_basics/potato_classification/potato-disease-classification tensorflow/serving --rest_api_port=8501 --model_config_file=C:/code_basics/potato_classification/potato-disease-classification/models.config
+  421  docker run -t --rm -p 8501:8501 -v C:/Code Basics Project/potato_classification/potato-disease-classification tensorflow/serving --rest_api_port=8501 --model_config_file=C:/code_basics/potato_classification/potato-disease-classification/models.config
+  422  docker run -t --rm -p 8501:8501 -v C:/code_basics/potato_classification/potato-disease-classification tensorflow/serving --rest_api_port=8501 --model_config_file=C:/code_basics/potato_classification/potato-disease-classification/models.config
+  423  docker run -t --rm -p 8501:8501 -v C:/code_basics/potato_classification/potato-disease-classification tensorflow/serving --rest_api_port=8501 --model_config_file=C:/code_basics/potato_classification/potato-disease-classification/models.config
+  424  jupyter notebook
+  425  conda create -n hans_on_ml python=3.8 -y
+  426  conda create -n hands_on_ml python=3.8 -y
+  427  source activate hands_on_ml
+  428  cd C:/Books/
+  429  ls
+  430  cd handson-ml2-master/
+  431  ls
+  432  pip install jupyter notebook
+  433  jupyter notebook
+  434  source activate hands_on_ml
+  435  cd C:/Books
+  436  ls
+  437  cd handson-ml2-master/
+  438  jupyter notebook
+  439  jupyter notebook
+  440  source activate hands_on_ml
+  441  cd C:/Books
+  442  ls
+  443  cd handson-ml2-master/
+  444  jupyter notebook
+  445  wget https://drive.google.com/file/d/1sxe6joMTQKYf_V2SHf9upgTiZtL618mz/view?usp=sharing
+  446  pip install wgwt
+  447  ls
+  448  source activate rl
+  449  jupyter notebook
+  450  source activate rl
+  451  cd ..
+  452  cd ..
+  453  cd ReinforcementLearning/
+  454  jupyter notebook
+  455  source activate rl
+  456  cd ..
+  457  cd ..
+  458  cd ReinforcementLearning/
+  459  ls
+  460  jupyter notebook
+  461  source activate rl
+  462  ls
+  463  cd ..
+  464  cd ..
+  465  cd ReinforcementLearning/
+  466  ls
+  467  start .
+  468  jupyter notebook
+  469  git clone https://github.com/python-engineer/snake-ai-pytorch
+  470  ls
+  471  cd snake-ai-pytorch/
+  472  ls
+  473  code
+  474  code .
+  475  source activate rl
+  476  cd ..
+  477  cd ..
+  478  cd ReinforcementLearning/
+  479  git clone https://github.com/pedrohbtp/snake-rl
+  480  git clone https://github.com/pedrohbtp/snake-rl
+  481  git clone https://github.com/pedrohbtp/snake-rl.git
+  482  git clone https://github.com/pedrohbtp/snake-rl.git
+  483  source activate rl
+  484  cd ..
+  485  cd ..
+  486  cd ReinforcementLearning/
+  487  ls
+  488  cd snake-rl-baseline2/
+  489  ls
+  490  jupyter notebook
+  491  cd ..
+  492  cd snake_ai_baseline3/
+  493  code .
+  494  source activate rl
+  495  ls
+  496  cd ..
+  497  cd ..
+  498  cd ReinforcementLearning/
+  499  ls
+  500  jupyter notebook
+  501  conda create -n rl-test python=3.6
+  502  source activate rltest
+  503  source activate rl-test
+  504  cd ..
+  505  cd ..
+  506  cd ReinforcementLearning/
+  507  cd snake-ai-pytorch/
+  508  ls
+  509  python test.py
+  510  conda install pytorch torchvision torchaudio cpuonly -c pytorch
+  511  python test.py
+  512  pip install pygame
+  513  python test.py
+  514  pip install matplotlib
+  515  python test.py
+  516  pip install ipython
+  517  python test.py
+  518  history > commands_rl.txt
