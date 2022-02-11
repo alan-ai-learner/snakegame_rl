@@ -8,7 +8,7 @@ import numpy as np
 import random
 
 model = Linear_QNet(11, 256, 3)
-model.load_state_dict(torch.load('model16/model.pth'))
+model.load_state_dict(torch.load('model20/model.pth'))
 model = model.eval()
 
 
